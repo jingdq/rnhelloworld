@@ -10,7 +10,7 @@ export default class helloworld extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
+        <Text style={styles.welcome}> 
           Welcome to React Native,This is new Version ,hoo!
         </Text>
         <Text style={styles.instructions}>

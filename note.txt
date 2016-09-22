@@ -1,2 +1,4 @@
 请求bundle路径
 localhost:8081/index.android.bundle?platform=android&dev=true&hot=false&minify=false
+
+react-native bundle --entry-file ./index.android.js --bundle-output ./android/app/src/main/assets/index.android.jsbundle --platform android --assets-dest ./android/app/src/main/res/ --dev false 

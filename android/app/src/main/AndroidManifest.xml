@@ -28,6 +28,9 @@
         <activity android:name=".RNDemoActivity"/>
         <activity android:name=".BlinkDemoActivity"/>
         <activity android:name=".FlexLayoutDemo"/>
+        <activity android:name=".HotUpdateDemo"/>
+        <activity android:name=".HotReloadingDemo"/>
+        <activity android:name=".ExtensionModuleDemo"/>
       <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
     </application>
 

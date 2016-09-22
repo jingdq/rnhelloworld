@@ -21,4 +21,15 @@ public class MainActivity extends Activity {
     public void flexlayout(View v){
         startActivity(new Intent(this,FlexLayoutDemo.class));
     }
+    public void hotupdate(View v){
+        startActivity(new Intent(this,HotUpdateDemo.class));
+    }
+    public void hotreloading(View v){
+        startActivity(new Intent(this,HotReloadingDemo.class));
+    }
+    public void extensiondemo(View v){
+        startActivity(new Intent(this,ExtensionModuleDemo.class));
+    }
+
+
 }
